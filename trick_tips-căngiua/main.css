@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: blueviolet;
+    height: 200px;
+    display: flex;
+}
+h3{
+    margin: auto;
+    position: relative;
+}
+
+h3::after{
+    position: absolute;
+    left: -10px;
+    content:"";
+    border-left: 3px solid #333;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+
+
+

@@ -1,0 +1,39 @@
+<DOCTYPE_html>
+    <html>
+        <head>
+            <title> xin chào các bạn</title>
+            <meta charset="utf-8">
+            <style>
+               .box::before{
+                   content: "";
+                   display: block;
+               }
+
+               h1::first-letter{
+                   font-size: 55px;
+                   color: green;
+               }
+
+               h1::selection{
+                   color: violet;
+                   background-color: blue;
+               }
+
+
+            </style>
+        </head>
+
+        <body>
+            <div class="box">
+                <h1>hôm nay tôi buồn <br/> dòng thứ 2</h1>
+                <ul>
+                    <li>::befor: đầu phải có content</li>
+                    <li>::after: cuối phải có content</li>
+                    <li>::first-letter: kí tự đầu</li>
+                    <li>::first-line: dong đầu tiên</li>
+                    <li>::selection: sự  lựa chọn</li>
+                </ul>
+            </div>
+        </body>
+    </html>
+</DOCTYPE_html>
